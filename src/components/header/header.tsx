@@ -5,7 +5,7 @@ function Header() {
   return (
     <>
     <header>
-      <h1>HELLO WORLD</h1>
+      <h1>Puissance 8000</h1>
     </header>
     </>
   )
