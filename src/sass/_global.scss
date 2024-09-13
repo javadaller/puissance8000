@@ -1,0 +1,16 @@
+@use "extends";
+
+body {
+    color:white;
+    background-color: black;
+    display: flex;
+    @include flex(column,center,center);
+    @include box(100%,100dvh);
+    overflow: hidden;
+
+    font-family: Ubuntu;
+
+    #root {
+        @include box(100%);
+    }
+}
