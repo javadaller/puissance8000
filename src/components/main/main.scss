@@ -1,8 +1,7 @@
 @import "../../sass/style";
 
-#home {
+main {
     color:pink;
+    @include box(100%,85dvh);
     @include flex(column,center,center);
-    height:80dvh;
-
 }
